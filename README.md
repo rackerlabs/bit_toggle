@@ -22,7 +22,7 @@ To enable a feature for a single object:
 
 ```ruby
 user = User.find(username)
-BitToggle.enable(:my_new_feature, device)
+BitToggle.enable(:my_new_feature, user)
 ```
 
 To enable a bit toggle globally:
